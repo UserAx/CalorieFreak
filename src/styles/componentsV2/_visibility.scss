@@ -1,0 +1,11 @@
+.showonmobile {
+    @media(min-width: $desktop-breakpoint) {//when the minimum size becomes of a desktop
+        display: none;
+    }
+}
+
+.showondesktop {
+    @media(max-width: $desktop-breakpoint - .01rem) {//when the maximum size becomes of a mobile
+        display: none;
+    }
+}

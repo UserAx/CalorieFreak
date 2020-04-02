@@ -1,0 +1,10 @@
+.button {
+    display: inline-block;
+    padding: 1rem;
+    background: darken($color: #00ff00, $amount: 10);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: $s-size;
+    align-self: center;
+}

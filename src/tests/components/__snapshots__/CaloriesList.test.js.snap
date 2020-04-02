@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render calorie list correctly 1`] = `
+<div>
+  <CaloriesListItem
+    caloriesAmount={15024.25}
+    createdAt={0}
+    description="Lunch for today."
+    foodname="Pasta"
+    id="1"
+    key="1"
+    servings={5}
+  />
+  <CaloriesListItem
+    caloriesAmount={1504.25}
+    createdAt={-345600000}
+    description="Snack."
+    foodname="Momo"
+    id="2"
+    key="2"
+    servings={2}
+  />
+  <CaloriesListItem
+    caloriesAmount={150244.25}
+    createdAt={345600000}
+    description="Dinner."
+    foodname="Rice and Pickels"
+    id="3"
+    key="3"
+    servings={2}
+  />
+</div>
+`;

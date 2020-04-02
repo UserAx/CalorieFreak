@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render login page correctly 1`] = `
+<div>
+  <div>
+    <h1>
+      Calories Freak
+    </h1>
+    <p>
+      Stay fit, Stay healthy.
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;

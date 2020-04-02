@@ -1,0 +1,35 @@
+.listfilter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    padding: 3rem;
+    @media(min-width: $desktop-breakpoint){
+        float: left;
+        height: 100vh;
+    }
+}
+
+.listfilter__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.listfilter__input {
+    width: 14rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.listfilter__select {
+    @extend .listfilter__input;
+    border-radius: 2px;
+    width: 16rem;
+    option {
+        font-weight: 300;
+        @media(max-width: $desktop-breakpoint){
+            font-size: 1.7rem;
+        }
+    }
+}

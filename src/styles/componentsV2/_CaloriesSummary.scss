@@ -1,0 +1,26 @@
+.summary__container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background: darken($color: #fff, $amount: 5);
+    
+    @media(min-width: $desktop-breakpoint){
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+    }
+}
+
+.summary__container > div > h3 {
+    font-size: $m-size;
+    font-weight: 300;
+}
+
+.summary_container__button--link{
+    align-self: flex-start;
+    color: #fff;
+    font-size: $m-size;
+    font-weight: 300;
+    padding: 10px;
+    background: darken($color: #006e00, $amount: 0)
+}

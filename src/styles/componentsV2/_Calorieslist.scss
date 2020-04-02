@@ -1,0 +1,34 @@
+.calorielist__container{
+    @media(max-width: $desktop-breakpoint){
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 0rem 2rem 2rem;
+    }
+}
+
+.calorielist__header {
+    display: flex;
+    border: 1px solid fade-out($color: #000000, $amount: 0.8);
+    background: lighten($color: grey, $amount: 40);
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    font-weight: 350;
+    font-size: 2rem;
+    margin: 1rem 2rem 0 0 ;
+    color: darken($color: grey, $amount: 20);
+}
+
+.caloriesList__items {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid fade-out($color: #000000, $amount: 0.8);
+    border-top: none;
+    margin: 0 2rem 0 0;
+}
+
+.caloriesList__items__empty {
+    font-size: 2rem;
+    font-weight: 350;
+    display: inline-block;
+    margin: 1rem auto;
+}

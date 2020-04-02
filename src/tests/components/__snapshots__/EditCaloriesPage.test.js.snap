@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render edit calorie form 1`] = `
+<div>
+  <div>
+    <CaloriesForm
+      calorie={
+        Object {
+          "caloriesAmount": 1504.25,
+          "createdAt": -345600000,
+          "description": "Snack.",
+          "foodname": "Momo",
+          "id": "2",
+          "servings": 2,
+        }
+      }
+      onSubmit={[Function]}
+    />
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+  </div>
+</div>
+`;

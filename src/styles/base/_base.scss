@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: $s-size;
+    line-height: 1.2;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    // color: #ffffff;
+}

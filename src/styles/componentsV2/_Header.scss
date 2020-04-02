@@ -1,0 +1,25 @@
+.header__container{
+    display: flex;
+    background: lighten($color: #000000, $amount: 10);
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    // @media(min-width: $desktop-breakpoint){
+    //     padding: 1rem 3rem;                    
+    // }
+}
+
+.header__container__linkcontainer {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    h1, h4 {
+        color:#fff; 
+    }
+}
+
+.button--header{
+    background: none;
+    font-size: 2.2rem;
+    font-weight: 300;
+}

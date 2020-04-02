@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render calories summary correctly 1`] = `
+<div>
+  <div>
+    <h3>
+      Viewing 
+      <span>
+        3
+      </span>
+      , a total of 
+      2155.54
+    </h3>
+  </div>
+  <div>
+    <Link
+      to="/addcalories"
+    >
+      Add Record
+    </Link>
+  </div>
+</div>
+`;

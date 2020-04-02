@@ -1,0 +1,24 @@
+.calorieslistitemlink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    transition: background 300ms ease;
+    &:hover {
+        background: lighten($color: grey, $amount: 45);
+    }
+}
+
+.calorieslistitem__title {
+    font-size: $m-size;
+    font-weight: 500;
+    color: lighten($color: #000000, $amount: 20)
+}
+.calorieslistitem__date {
+    @extend .calorieslistitem__title;
+    font-size: 1.5rem;
+}
+.calorieslistitem__calories {
+    @extend .calorieslistitem__title;
+    font-size: 2rem;
+}

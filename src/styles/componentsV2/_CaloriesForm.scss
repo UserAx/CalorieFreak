@@ -1,0 +1,58 @@
+.caloriesform__container{
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+    margin: 2rem auto;
+    margin-bottom: 1rem;
+    @media(max-width: $desktop-breakpoint){
+        padding: 2rem;
+        padding-bottom: 0rem;
+    }
+}
+
+.caloriesform__error{
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.caloriesform__input{
+    height: 6rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    border: 1px solid #cacccd;
+    font-size: 2rem;
+}
+
+.caloriesform__textarea {
+    @extend .caloriesform__input;
+    height: 10rem;
+}
+
+.button--addcalories{
+    display: inline-block;
+    border: none;
+    align-self: center;
+    padding: 1rem;    
+}
+
+.button--addcalories--extra{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    font-weight: 300;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.button--editcalories{
+    @extend .button--addcalories;
+    display: flex;
+    justify-content: center;
+    margin-top: none;
+    margin-bottom: 2rem;
+}
+
+.button--editcalories--extra {
+    @extend .button--addcalories--extra;
+    padding: 1rem 2.5rem;
+}

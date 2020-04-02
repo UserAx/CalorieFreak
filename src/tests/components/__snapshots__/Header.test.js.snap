@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header correctly 1`] = `
+<div>
+  <div>
+    <Link
+      to="/"
+    >
+      <h1>
+        CalorieFreak
+      </h1>
+    </Link>
+    <h4>
+      Stay fit, Stay Healthy
+    </h4>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Logout
+    </button>
+  </div>
+</div>
+`;
