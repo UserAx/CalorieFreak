@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 4rem;
     h1, p {
         color: darken($color: #fff, $amount: 0);
         opacity: 0.9;
